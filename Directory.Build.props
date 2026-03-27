@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <!-- Make all projects run from solution root so relative paths share one place -->
+    <StartWorkingDirectory>$(MSBuildThisFileDirectory)</StartWorkingDirectory>
+    <RunWorkingDirectory>$(MSBuildThisFileDirectory)</RunWorkingDirectory>
+  </PropertyGroup>
+</Project>
