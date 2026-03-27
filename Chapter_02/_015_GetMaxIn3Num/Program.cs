@@ -1,4 +1,4 @@
-﻿namespace _015_GetMaxIn3Num
+namespace _015_GetMaxIn3Num
 {
     internal class Program
     {
@@ -13,7 +13,7 @@
 
             int max = Number1 > Number3 ?   /* Num1大于Num3吗*/
                 Number1 > Number2 ? Number1 : Number2 /* 如果Num1大于Num3，则继续判断Num1和Num2谁大*/
-                : 
+                :
                 Number3 > Number2 ? Number3 : Number2;/* 如果Num1小于Num3，则继续判断Num3和Num2谁大*/
             Console.WriteLine("{0} {1} {2}中最大值为{3}", Number1, Number2, Number3, max);
         }

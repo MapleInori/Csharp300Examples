@@ -1,4 +1,4 @@
-﻿namespace _079_Inheritance
+namespace _079_Inheritance
 {
     //圆
     class Circle
@@ -41,9 +41,9 @@
             Ball ball = new Ball(10);  //实例化球体
             Console.WriteLine("半径为{0}的球体体积为{1:0.00}", ball.Radius, ball.Volume);
             Circle cylinder = new Cylinder(10, 10);   //实例化圆柱体
-            Console.WriteLine("半径为{0}高度为{1}的圆柱体体积为{2:F3}", cylinder.Radius, 10,cylinder.Volume);
+            Console.WriteLine("半径为{0}高度为{1}的圆柱体体积为{2:F3}", cylinder.Radius, 10, cylinder.Volume);
             Circle cone = new Cone(10, 10);  //实例化圆锥体
-            Console.WriteLine("半径为{0}高度为{1}的圆柱体体积为{2:#,#.#}", cone.Radius, 10,cone.Volume);
+            Console.WriteLine("半径为{0}高度为{1}的圆柱体体积为{2:#,#.#}", cone.Radius, 10, cone.Volume);
         }
     }
 }

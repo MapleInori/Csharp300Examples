@@ -1,4 +1,4 @@
-﻿using StudentSpace;
+using StudentSpace;
 
 namespace _072_HashTable
 {
@@ -20,7 +20,7 @@ namespace _072_HashTable
             bool successful = false;                            //标记查找是否成功
             StudentNode node = hashTable[result % 5];           //计算哈希地址
             while (node != null)
-    {
+            {
                 if (node.Student.Result == result)               //查找成功
                 {
                     Console.WriteLine("学号：{0}\t姓名：{1}\t年级：{2}",

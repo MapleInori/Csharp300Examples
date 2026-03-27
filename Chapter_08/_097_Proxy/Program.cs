@@ -1,4 +1,4 @@
-﻿namespace _097_Proxy
+namespace _097_Proxy
 {
     //水果销售者
     public abstract class FruitSeller

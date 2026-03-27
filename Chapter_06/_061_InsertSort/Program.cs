@@ -1,4 +1,4 @@
-﻿namespace _061_InsertSort
+namespace _061_InsertSort
 {
     public struct Student
     {

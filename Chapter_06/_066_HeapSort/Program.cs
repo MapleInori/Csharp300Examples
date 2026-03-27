@@ -1,4 +1,4 @@
-﻿using StudentSpace;
+using StudentSpace;
 namespace _066_HeapSort
 {
     internal class Program

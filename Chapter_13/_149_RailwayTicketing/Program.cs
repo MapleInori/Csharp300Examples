@@ -1,4 +1,4 @@
-﻿namespace _149_RailwayTicketing
+namespace _149_RailwayTicketing
 {
     internal class Program
     {
@@ -11,7 +11,7 @@
             for (int i = 1; i < 6; i++)                             //创建5个售票窗口同时售票
             {
                 ThreadPool.QueueUserWorkItem(new WaitCallback(Ticketing), i);//创建并启动售票线程
-                Console.WriteLine(i+"...");
+                Console.WriteLine(i + "...");
             }
             Console.WriteLine("售票开始，按任意键退出...");
             Console.ReadKey();  // ⭐ 主线程在这里等待

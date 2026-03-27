@@ -1,4 +1,4 @@
-﻿namespace _096_Decorator
+namespace _096_Decorator
 {
     //抽象水果类
     public abstract class Fruit
@@ -52,7 +52,7 @@
         private void Manure()                       //为果树浇水
         {
             Console.WriteLine("为果树浇水！");
-        } 
+        }
     }
     internal class Program
     {

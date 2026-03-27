@@ -1,5 +1,3 @@
-﻿using System;
-
 namespace _151_CheckUser
 {
     internal class Program

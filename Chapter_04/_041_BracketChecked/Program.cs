@@ -1,5 +1,3 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
 namespace _041_BracketChecked
 {
     internal class Program
@@ -12,7 +10,7 @@ namespace _041_BracketChecked
             bool isValid = true;  // 是否有效的标志
             foreach (char bracket in expression)
             {
-                if(bracket != '(' && bracket != ')' && bracket != '[' && bracket != ']' && bracket != '{' && bracket != '}')
+                if (bracket != '(' && bracket != ')' && bracket != '[' && bracket != ']' && bracket != '{' && bracket != '}')
                 {
                     continue;   // 如果不是括号，则跳过
                 }
@@ -22,15 +20,15 @@ namespace _041_BracketChecked
                 {
                     brackets.Push(bracket);    //括号进入栈
                 }
-                else if((bracket == ')' || bracket == ']' || bracket == '}') && brackets.Count == 0)    // 栈内没有元素，说明右括号没有匹配的左括号
+                else if ((bracket == ')' || bracket == ']' || bracket == '}') && brackets.Count == 0)    // 栈内没有元素，说明右括号没有匹配的左括号
                 {
                     Console.WriteLine("表达式括号格式错误！1，当前右括号无匹配的左括号。");
                     isValid = false;  // 设置标志为无效
                     break;
                 }
-                else if ( (bracket == ')' && brackets.Peek() == '(')
+                else if ((bracket == ')' && brackets.Peek() == '(')
                        || (bracket == ']' && brackets.Peek() == '[')
-                       || (bracket == '}' && brackets.Peek() == '{') )    // 匹配正确
+                       || (bracket == '}' && brackets.Peek() == '{'))    // 匹配正确
                 {
                     brackets.Pop();
                 }
@@ -42,11 +40,11 @@ namespace _041_BracketChecked
                 }
             }
             // 如果最后一个错误，在执行判断时也将栈顶元素出栈了，所以需要修改判断逻辑,Pop该为Peek，判断而不出栈
-            if(isValid && brackets.Count == 0)
+            if (isValid && brackets.Count == 0)
             {
                 Console.WriteLine("表达式括号格式正确！");
             }
-            else if(isValid && brackets.Count >0)
+            else if (isValid && brackets.Count > 0)
             {
                 Console.WriteLine("表达式括号格式错误！3，有多余的左括号没有进行匹配");
             }

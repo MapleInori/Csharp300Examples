@@ -1,4 +1,4 @@
-﻿namespace _040_PartnerMatch
+namespace _040_PartnerMatch
 {
     internal class Program
     {
@@ -42,7 +42,7 @@
                     waitingGentlemen.Enqueue(gentleman);          //男士进入等待队列末尾
                     waitingLadies.Enqueue(lady);                  //女士进入等待队列末尾
                 }
-            } while (Console.ReadLine() != "exit") ;
+            } while (Console.ReadLine() != "exit");
         }
 
     }

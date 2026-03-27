@@ -1,4 +1,4 @@
-﻿namespace _077_Indexer
+namespace _077_Indexer
 {
     class Result
     {

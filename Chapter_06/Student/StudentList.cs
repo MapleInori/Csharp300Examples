@@ -1,4 +1,4 @@
-﻿namespace StudentSpace
+namespace StudentSpace
 {
     /// <summary>
     /// 学生结构体

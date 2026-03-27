@@ -1,4 +1,4 @@
-﻿namespace _055_SequenceList
+namespace _055_SequenceList
 {
     public struct Student
     {

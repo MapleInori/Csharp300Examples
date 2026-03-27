@@ -1,5 +1,3 @@
-﻿using System;
-
 namespace _150_ProducerConsumer
 {
     internal class Program

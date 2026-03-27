@@ -1,5 +1,3 @@
-﻿using System;
-
 namespace _148_GroupMessages
 {
     internal class Program

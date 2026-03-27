@@ -1,4 +1,4 @@
-﻿namespace _039_TicketSale
+namespace _039_TicketSale
 {
     internal class Program
     {
@@ -19,11 +19,11 @@
             }
             Console.WriteLine("请输入座号：");
             int number = int.Parse(Console.ReadLine());         //输入座位号
-            if (seats[(number - 1) / 5 , (number - 1) % 5])
+            if (seats[(number - 1) / 5, (number - 1) % 5])
                 Console.WriteLine("{0}号座车票位已售出！", number);
             else
             {
-                seats[(number - 1) / 5 , (number - 1) % 5] = true;   //将座位设置成已售状态
+                seats[(number - 1) / 5, (number - 1) % 5] = true;   //将座位设置成已售状态
                 Console.WriteLine("{0}号座位车票成功售出！", number);
             }
         }

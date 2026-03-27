@@ -1,5 +1,3 @@
-﻿using System;
-
 namespace _152_Maximum
 {
     internal class Program

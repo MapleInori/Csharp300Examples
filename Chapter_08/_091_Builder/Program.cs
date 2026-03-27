@@ -1,4 +1,4 @@
-﻿namespace _091_Builder
+namespace _091_Builder
 {
     //果园
     public class Orchard
@@ -75,7 +75,7 @@
     internal class Program
     {
         static void Main(string[] args)
-        {    
+        {
             //创建北京果园建造指导者
             OrchardDirector bjOrchardDirector = new OrchardDirector(new BJOrchardBuilder());
             Orchard bjOrchard = bjOrchardDirector.Construct();  //北京果园指导者建造北京果园

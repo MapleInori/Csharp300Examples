@@ -1,4 +1,4 @@
-﻿namespace _062_ShellSort
+namespace _062_ShellSort
 {
     public struct Student
     {

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 
 namespace _036_StudentInfo
 {
@@ -20,7 +20,7 @@ namespace _036_StudentInfo
             }
         }
         static void Main(string[] args)
-        {    
+        {
             ArrayList students = new ArrayList();                   //学生信息表
             students.Add(new Student("张三", 20, "男", 20120001));   //添加学生"张三"的信息
             students.Add(new Student("李四", 19, "女", 20120002));   //添加学生"李四"的信息

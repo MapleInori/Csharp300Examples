@@ -1,4 +1,4 @@
-﻿namespace _081_BaseConstruct
+namespace _081_BaseConstruct
 {
     //动物类
     class Animal
@@ -19,7 +19,7 @@
     class Panda : Animal
     {
         // TODO：这里的food参数是怎样的传参逻辑？
-        public Panda(string food): base("熊猫", food)                      //调用基类构造函数
+        public Panda(string food) : base("熊猫", food)                      //调用基类构造函数
         {
             Feed();                                  //给熊猫喂食
         }
@@ -27,7 +27,7 @@
     //老虎
     class Tiger : Animal
     {
-        public Tiger(string food): base("老虎", food)                      //调用基类构造函数
+        public Tiger(string food) : base("老虎", food)                      //调用基类构造函数
         {
             Feed();                                  //给老虎喂食
         }

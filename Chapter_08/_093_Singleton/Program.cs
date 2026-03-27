@@ -1,4 +1,4 @@
-﻿namespace _093_Singleton
+namespace _093_Singleton
 {
     class Helicopter
     {

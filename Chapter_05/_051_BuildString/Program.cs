@@ -1,4 +1,4 @@
-﻿using System.Text;
+using System.Text;
 
 namespace _051_BuildString
 {
@@ -8,7 +8,7 @@ namespace _051_BuildString
         {
             Console.Title = "将错乱的古诗句拼接成古诗";
             string poetry = "岱宗夫如何？齐鲁青未了。造化钟神秀，阴阳割昏晓。荡胸生曾云，决眦入归鸟。会当凌绝顶，一览众山小。";
-    Console.WriteLine("请将下列杜甫的《望岳》中的诗句拼接正确：");
+            Console.WriteLine("请将下列杜甫的《望岳》中的诗句拼接正确：");
             List<string> sentences = new List<string>();
             sentences.Add("一览众山小。");
             sentences.Add("决眦入归鸟。");

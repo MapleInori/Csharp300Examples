@@ -1,4 +1,4 @@
-﻿namespace _063_BubbleSort
+namespace _063_BubbleSort
 {
     public struct Student
     {

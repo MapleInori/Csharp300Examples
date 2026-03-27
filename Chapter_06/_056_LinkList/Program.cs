@@ -1,4 +1,4 @@
-﻿namespace _056_LinkList
+namespace _056_LinkList
 {
     public struct Student
     {
