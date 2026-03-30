@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4BD8B43E-D17C-4B77-91E6-156267976534}</ProjectGuid>
+    <ProjectGuid>{E59AB09D-D082-4E4D-AB89-5A936FD94867}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_172_RegistryBoot</RootNamespace>
-    <AssemblyName>_172_RegistryBoot</AssemblyName>
+    <RootNamespace>_176_RegistryExplorer</RootNamespace>
+    <AssemblyName>_176_RegistryExplorer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormBoot.cs">
+    <Compile Include="RegistryExplorer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBoot.Designer.cs">
-      <DependentUpon>FormBoot.cs</DependentUpon>
+    <Compile Include="RegistryExplorer.Designer.cs">
+      <DependentUpon>RegistryExplorer.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormBoot.resx">
-      <DependentUpon>FormBoot.cs</DependentUpon>
+    <EmbeddedResource Include="RegistryExplorer.resx">
+      <DependentUpon>RegistryExplorer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

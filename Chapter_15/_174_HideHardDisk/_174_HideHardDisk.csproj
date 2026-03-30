@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4BD8B43E-D17C-4B77-91E6-156267976534}</ProjectGuid>
+    <ProjectGuid>{675AAE9C-A462-4E49-A3A3-218546F79880}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_172_RegistryBoot</RootNamespace>
-    <AssemblyName>_172_RegistryBoot</AssemblyName>
+    <RootNamespace>_174_HideHardDisk</RootNamespace>
+    <AssemblyName>_174_HideHardDisk</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormBoot.cs">
+    <Compile Include="FormbtnHardDisk.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBoot.Designer.cs">
-      <DependentUpon>FormBoot.cs</DependentUpon>
+    <Compile Include="FormbtnHardDisk.Designer.cs">
+      <DependentUpon>FormbtnHardDisk.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormBoot.resx">
-      <DependentUpon>FormBoot.cs</DependentUpon>
+    <EmbeddedResource Include="FormbtnHardDisk.resx">
+      <DependentUpon>FormbtnHardDisk.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

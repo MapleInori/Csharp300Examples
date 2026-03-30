@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4BD8B43E-D17C-4B77-91E6-156267976534}</ProjectGuid>
+    <ProjectGuid>{96AD0BA8-28B2-4F16-9D5A-0F7CA8096C07}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_172_RegistryBoot</RootNamespace>
-    <AssemblyName>_172_RegistryBoot</AssemblyName>
+    <RootNamespace>_175_Regist</RootNamespace>
+    <AssemblyName>_175_Regist</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormBoot.cs">
+    <Compile Include="FormRegist.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBoot.Designer.cs">
-      <DependentUpon>FormBoot.cs</DependentUpon>
+    <Compile Include="FormRegist.Designer.cs">
+      <DependentUpon>FormRegist.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormBoot.resx">
-      <DependentUpon>FormBoot.cs</DependentUpon>
+    <EmbeddedResource Include="FormRegist.resx">
+      <DependentUpon>FormRegist.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
